@@ -59,17 +59,19 @@ PRESENTATION TOP
 ********************/
 
 .presentation-top {
-  display: flex;
+  /*display: flex;*/
   width: 100%;
-  justify-content: center
+  /*justify-content: center;*/
 }
 
 .presentation-logo{
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  align-self: center;
+  align-self: center;*/
   position: absolute;
-  width: 70%;
+  width: 80%;
+  top: calc(50vh - 80px);
+  left: 10vw;
 }
 
 .presentation-top .lion-bg {
