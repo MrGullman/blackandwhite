@@ -87,6 +87,21 @@ img {
   width: auto;
 }
 
+h3 {
+  color: #e64056;
+  font-family: 'Dharma Gothic E ExBold';
+  font-weight: 800;
+  font-style: normal;
+}
+
+p {
+  color: #fff;
+  font-family: 'Dharma Slab E';
+  font-weight: 300;
+  font-style: normal;
+}
+
+
 .cat-header {
   background-color: #e64056;
   color: #fff;
@@ -125,13 +140,13 @@ HEADER
   margin-left: 1em;
 }
 
-.burger-button {
+#burger-button {
   background-color: rgba(0,0,0, 0.7);
   padding: 7px;
   position: fixed;
   top: 0;
   right: 0;
-  height: 2.3em;
+  height: 3.5em;
   margin-right: 1em;
   margin-top: 1em;
   z-index: 100;
@@ -143,25 +158,19 @@ HEADER
 PRESENTATION TOP
 ********************/
 
-.presentation-top {
-  /*display: flex;*/
+#presentation-top {
   width: 100%;
   overflow: hidden;
   margin: 0;
-  /*justify-content: center;*/
 }
 
 .presentation-logo{
-  /*display: flex;
-  flex-direction: column;
-  align-self: center;*/
   position: absolute;
   width: 80%;
-  /*top: calc(50vh - 80px);*/
   left: 10vw;
 }
 
-.presentation-top .lion-bg {
+#presentation-top .lion-bg {
   max-height: 100vh;
 }
 
@@ -172,12 +181,39 @@ IMAGE LIST
 
 .images-list {
   display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
 }
 
 .images-list-items {
   display: flex;
+}
+
+.photo {
+  position: relative;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 80%;
+  background: rgba(0,0,0, 0.6);
+}
+
+.overlay h3 {
+  font-size: 1.5em;
+  letter-spacing: 1.2px;
+}
+
+.overlay p {
+  margin: 0 0 0 0.3em;
+  font-size: 2em;
 }
 
 .images-list-items img {
@@ -190,21 +226,45 @@ PHOTOGRAPHER LIST
 
 .photographer-list {
   display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
 }
 
 .photographer-list img {
   align-self: center;
-  height: 70%;
+  height: 75%;
+}
+
+.photographer-list-items .social {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.photographer-list-items .social img {
+  height: 35%;
+}
+
+.photographer-list-items .social img:nth-child(1) {
+  margin-bottom: 0.6em;
 }
 
 .photographer-list-items {
   background-color: #282828;
   display: flex;
+  flex-direction: row;
   flex-grow: 1;
-  height: 150px;
+  height: 155px;
   border-bottom: 5px solid #e64056
+}
+
+.photograper-info-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-between;
 }
 
 .list-info {
@@ -215,22 +275,14 @@ PHOTOGRAPHER LIST
 .list-info h3 {
   margin: 0;
   padding: 0;
-  color: #e64056;
-  font-family: 'Dharma Gothic E ExBold';
-  font-weight: 800;
-  font-style: normal;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.2px;
 }
 
 .list-info p {
   margin: 0;
   padding: 0;
-  color: #fff;
-  font-family: 'Dharma Slab E';
-  font-weight: 300;
-  font-style: normal;
   letter-spacing: 1.5px;
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 
 
