@@ -193,7 +193,7 @@ PRESENTATION TOP
 
 #presentation-top {
   display: block;
-  height: 100vh;
+  height: calc(100vh + 4px);
   width: 100vw;
   background-image: url(../img/animal01.jpg);
   background-size: cover;
@@ -370,5 +370,72 @@ footer p {
 .footer-social-wrapper img:last-child {
   margin-right: 0;
 }
+
+/********************
+MEDIA QUERYS
+********************/
+
+@media screen and (min-width: 760px){
+  
+
+  #presentation-top {
+    background-image: url(../img/lion_lg_bg.jpg);
+  }
+  
+  .presentation-logo{
+    width: 50%;
+    left: 10vw;
+  }
+  
+  
+
+  
+}
+
+
+@media screen and (min-width: 1200px){
+  
+  .nav-list {
+    left: 75%; 
+  }
+  
+ .presentation-logo{
+    width: 40%;
+    left: 10vw;
+  }
+  
+  
+  
+  
+  
+}
+
+@media screen and (min-width: 1600px){
+  
+  .nav-list {
+    left: 75%;
+  }
+  
+  .presentation-logo{
+    width: 30%;
+    left: 10vw;
+  }
+  
+  
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
 
 		

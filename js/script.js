@@ -38,11 +38,25 @@ $(document).ready(function(){
          
          event.preventDefault();
          navVisible = !navVisible;
-         
-         if(navVisible){
-           $( ".nav-list" ).css("left", "100%");
-         } else {
-           $( ".nav-list" ).css("left", "50%");
+        
+         if($(window).width() <= 600){
+           if(navVisible){
+             $( ".nav-list" ).css("left", "100%");
+           } else {
+             $( ".nav-list" ).css("left", "50%");
+           }
+         }else if($(window).width() <= 1200){
+            if(navVisible){
+             $( ".nav-list" ).css("left", "100%");
+           } else {
+             $( ".nav-list" ).css("left", "75%");
+           }  
+         }else{
+           if(navVisible){
+             $( ".nav-list" ).css("left", "100%");
+           } else {
+             $( ".nav-list" ).css("left", "5%");
+          }
          }
         });
   
