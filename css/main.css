@@ -140,18 +140,31 @@ header {
 .nav-list {
   position: fixed;
   top: 0;
-  left: 100%;
+  left: 50%;
   width: 50%;
   height: 100%;
   list-style: none;
-  display: inline;
   z-index: 15;
   margin-top: 0;
   padding-top: 100px;
-  background-color: #282828;
+  padding-left: 0;
+  background-color: rgba(0,0,0, 0.85);
   display: inline-flex;
   flex-direction: column;
   transition: left 0.5s; 
+}
+
+.nav-list li {
+  width: 100%;;
+}
+
+.nav-list li a {
+  color: #fff;
+  font-family: 'Dharma Slab E';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.7em;
+  padding-left: 1em;
 }
 
 
