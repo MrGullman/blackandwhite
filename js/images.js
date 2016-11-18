@@ -1,6 +1,6 @@
 /* En lista med alla bilder från fotograferna */
 
-var imageList = [];
+/*var imageList = [];
 
 for(var i = 0; i < photoG.length; i++){
   imageList.push(photoG[i].images);
@@ -16,7 +16,7 @@ var randomImages = function(){
   var randImg = images[Math.floor(Math.random() * images.length)];
   
   return randImg;
-};
+};*/
 
 
 
@@ -26,7 +26,7 @@ var randomImages = function(){
   $("#test").html("<img src='" + randImg + "'>");
 }*/
 
-console.log(images.length);
+/*console.log(images.length);*/
 //var images = imageList[0].concat(imageList[1])
 /*<li class='photographer-list-items'>" + 
 "<img src='" + photoG[i].profileImg + "'>" +

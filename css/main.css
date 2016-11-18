@@ -74,8 +74,13 @@ body {
 }
 
 .main-nav,
-.nav-list{
+.nav-list,
+.site-wrapper{
   display: flex;
+}
+
+.site-wrapper {
+  flex-direction: column;
 }
 
 ul {
@@ -122,16 +127,31 @@ p {
 HEADER
 ********************/
 
+header {
+  display: flex;
+}
 
 .main-nav {
-  height: 100%;
+  position: relative;
   align-items: center;
   justify-content: space-between;
 }
 
 .nav-list {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 50%;
+  height: 100%;
   list-style: none;
-  display: none;
+  display: inline;
+  z-index: 15;
+  margin-top: 0;
+  padding-top: 100px;
+  background-color: #282828;
+  display: inline-flex;
+  flex-direction: column;
+  transition: left 0.5s; 
 }
 
 
@@ -160,8 +180,9 @@ PRESENTATION TOP
 
 #presentation-top {
   width: 100%;
-  overflow: hidden;
+  /*overflow: hidden;*/
   margin: 0;
+  background-color: blue;
 }
 
 .presentation-logo{
@@ -171,7 +192,9 @@ PRESENTATION TOP
 }
 
 #presentation-top .lion-bg {
-  max-height: 100vh;
+  text-align: center;
+  height: 100vh;
+  max-width: 100%;
 }
 
 
