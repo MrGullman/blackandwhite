@@ -8,16 +8,16 @@ var photoG = [
   {
     name: "Jesper Gullman",
     country: "Sweden",
-    profileImg: "../img/me.jpg",
+    profileImg: "img/me.jpg",
     fb: "http://www.facebook.com",  /* egentlig länk till fotografens fb sida */
     in: "http://www.instagram.com",   /* egentlig länk till fotografens in sida */
     images: [
       "../img/boat01.jpg",
       "../img/boat02.jpg", 
       "../img/boat03.jpg",
-      /*"../img/sq_boat01.jpg",
+      "../img/sq_boat01.jpg",
       "../img/sq_boat02.jpg", 
-      "../img/sq_boat03.jpg",*/
+      "../img/sq_boat03.jpg",
     ]
   },
   {
@@ -30,9 +30,9 @@ var photoG = [
       "../img/nature01.jpg",
       "../img/nature02.jpg", 
       "../img/nature03.jpg",
-      /*"../img/sq_nature01.jpg",
+      "../img/sq_nature01.jpg",
       "../img/sq_nature02.jpg", 
-      "../img/sq_nature03.jpg",*/
+      "../img/sq_nature03.jpg",
     ]
   },
   {
@@ -45,9 +45,9 @@ var photoG = [
       "../img/abstract01.jpg",
       "../img/abstract02.jpg", 
       "../img/abstract03.jpg",
-      /*"../img/sq_abstract01.jpg",
+      "../img/sq_abstract01.jpg",
       "../img/sq_abstract02.jpg", 
-      "../img/sq_abstract03.jpg",*/
+      "../img/sq_abstract03.jpg",
     ]
   },
   {
@@ -60,9 +60,9 @@ var photoG = [
       "../img/car01.jpg",
       "../img/car02.jpg", 
       "../img/car04.jpg",
-      /*"../img/sq_car01.jpg",
+      "../img/sq_car01.jpg",
       "../img/sq_car02.jpg", 
-      "../img/sq_car04.jpg",*/
+      "../img/sq_car04.jpg",
     ]
   }
   
