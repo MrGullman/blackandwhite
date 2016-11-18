@@ -23,7 +23,7 @@ var photoG = [
   {
     name: "Sergei Kudrow",
     country: "Russia",
-    profileImg: "../img/sq_people04.jpg",
+    profileImg: "img/sq_people04.jpg",
     fb: "http://www.facebook.com",  /* egentlig länk till fotografens fb sida */
     in: "http://www.instagram.com",  /* egentlig länk till fotografens in sida */
     images: [
@@ -38,7 +38,7 @@ var photoG = [
   {
     name: "Julia Smith",
     country: "USA",
-    profileImg: "../img/sq_people05.jpg",
+    profileImg: "img/sq_people05.jpg",
     fb: "http://www.facebook.com",  /* egentlig länk till fotografens fb sida */
     in: "http://www.instagram.com",  /* egentlig länk till fotografens in sida */
     images: [
@@ -53,7 +53,7 @@ var photoG = [
   {
     name: "Johan Karlsson",
     country: "Sweden",
-    profileImg: "../img/sq_people03.jpg",
+    profileImg: "img/sq_people03.jpg",
     fb: "http://www.facebook.com",  /* egentlig länk till fotografens fb sida */
     in: "http://www.instagram.com",  /* egentlig länk till fotografens in sida */
     images: [

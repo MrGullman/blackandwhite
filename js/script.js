@@ -15,8 +15,8 @@ $(document).ready(function(){
                                    "<p>" + photoG[i].country + "</p>" +
                                    "</div>" +
                                    "<div class='social'>" +
-                                   "<img src='../img/in.svg'>" +
-                                   "<img src='../img/fb.svg'>" +
+                                   "<img src='img/in.svg'>" +
+                                   "<img src='img/fb.svg'>" +
                                    "</div>" +
                                    "</div>" +
                                    "</li>");
