@@ -22,8 +22,29 @@ $(document).ready(function(){
                                    "</li>");
   };
   
- 
   
+    /*if(navVisible){
+      $(".nav-list").animate({left:"50%"}500);
+    }else{
+      $(".nav-list").animate({right:"-50%"}500);
+    }
+  }*/
+    
+  //});
+ 
+    var navVisible = false;
+    
+       $( "#burger-button" ).click(function() {
+         
+         event.preventDefault();
+         navVisible = !navVisible;
+         
+         if(navVisible){
+           $( ".nav-list" ).css("left", "100%");
+         } else {
+           $( ".nav-list" ).css("left", "50%");
+         }
+        });
   
 });
 
