@@ -20,11 +20,9 @@ $(document).ready(function(){
                                    "</div>" +
                                    "</div>" +
                                    "</li>");
-  }
+  };
   
- $("#burger-button").click(function(){
-   $(".nav-list").css("display","inline" )
- });
+ 
   
   
 });
