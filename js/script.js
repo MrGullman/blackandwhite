@@ -55,7 +55,7 @@ $(document).ready(function(){
            if(navVisible){
              $( ".nav-list" ).css("left", "100%");
            } else {
-             $( ".nav-list" ).css("left", "5%");
+             $( ".nav-list" ).css("left", "85%");
           }
          }
         });

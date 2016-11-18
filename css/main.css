@@ -195,7 +195,7 @@ PRESENTATION TOP
   display: block;
   height: calc(100vh + 4px);
   width: 100vw;
-  background-image: url(../img/animal01.jpg);
+  background-image: url(../img/lion_lg_bg.jpg);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -382,10 +382,28 @@ MEDIA QUERYS
     background-image: url(../img/lion_lg_bg.jpg);
   }
   
+  .nav-list {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 50%;
+    height: 100%;
+    list-style: none;
+    z-index: 15;
+    margin-top: 0;
+    padding-top: 100px;
+    padding-left: 0;
+    background-color: rgba(0,0,0, 0.85);
+    display: inline-flex;
+    flex-direction: column;
+    transition: left 0.5s; 
+  }
+
   .presentation-logo{
     width: 50%;
     left: 10vw;
   }
+
   
   
 
@@ -413,7 +431,7 @@ MEDIA QUERYS
 @media screen and (min-width: 1600px){
   
   .nav-list {
-    left: 75%;
+    left: 85%;
   }
   
   .presentation-logo{
