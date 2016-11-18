@@ -179,10 +179,10 @@ header {
   position: fixed;
   top: 0;
   right: 0;
-  height: 3.5em;
+  height: 50px;
   margin-right: 1em;
   margin-top: 1em;
-  z-index: 100;
+  z-index: 1000;
 }
 
 
@@ -192,10 +192,13 @@ PRESENTATION TOP
 ********************/
 
 #presentation-top {
-  width: 100%;
-  /*overflow: hidden;*/
-  margin: 0;
-  background-color: blue;
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../img/animal01.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 .presentation-logo{
@@ -204,11 +207,12 @@ PRESENTATION TOP
   left: 10vw;
 }
 
-#presentation-top .lion-bg {
+/*#presentation-top .lion-bg {
+  display: inline-block;
   text-align: center;
   height: 100vh;
-  max-width: 100%;
-}
+  
+}*/
 
 
 /********************
@@ -348,7 +352,7 @@ footer p {
   display: inline-block;
   justify-content: center;
   margin: 0 auto;
-  padding-bottom: 0.2em;
+  padding-bottom: 0.4em;
 }
 
 .footer-social-wrapper {
