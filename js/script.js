@@ -32,6 +32,11 @@ $(document).ready(function(){
     
   //});
  
+/*
+Kod för att kolla om hamburgerknappen är tryckt på
+samt att kolla vilken skärmstorlek som är.
+*/
+
     var navVisible = false;
     
        $( "#burger-button" ).click(function() {

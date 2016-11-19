@@ -63,8 +63,8 @@
         <!-- MAIN SECTION  -->
           <!--  IMAGES  -->
         <div id="images"></div> <!-- placeholder for the nav -->
-        <section>
-          <h2 class="cat-header">Top Rated Pix</h2>
+        <h2 class="cat-header">Top Rated Pix</h2>
+        <section class="images-wrapper">
           <ul class="images-list">
             <li class="images-list-items">
               <div class="photo">
@@ -125,11 +125,29 @@
 
         <!--  PHOTOGRAPHERS  -->
         <div id="photographers"></div> <!-- placeholder for the nav -->
-        <section>
-          <h2 class="cat-header">Photpgraphers</h2>
-            <ul class="photographer-list">
+        <h2 class="cat-header">Photpgraphers</h2>
+        <section class="photographer-wrapper">
+          
+            <ul class="photographer-list photo-content">
               <!-- Här kommer list items från javasript -->
             </ul>
+            <div class="photo-content contact">
+              <h2>Kontakta Oss</h2>
+              <form>
+                <div class="input-group">
+                  <label for="name">Namn</label>
+                  <input type="text" id="name" name="user-name">
+                </div>
+                <div class="input-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="user-email">
+                </div>
+                <div class="input-group">
+                  <label for="phone">Mobilnr</label>
+                  <input type="text" id="phone" name="user-phone">
+                </div>
+              </form>
+            </div>
             <!--<ul class="photographer-list">
              <li class="photographer-list-items">
               <img src="img/me.jpg" alt="photographer jesper">
@@ -158,7 +176,7 @@
      <!--  FOOTER  -->
      
       <footer>
-        <h3>Kontakta Oss</h3>
+        <h3>Du hittar oss här</h3>
         <div class="footer-social-wrapper">
           <img src="img/in.svg" alt="in icon">
           <img src="img/fb.svg" alt="fb icon">
