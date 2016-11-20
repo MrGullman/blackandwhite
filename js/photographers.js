@@ -12,14 +12,14 @@ var photoG = [
     fb: "http://www.facebook.com",  /* egentlig länk till fotografens fb sida */
     in: "http://www.instagram.com",   /* egentlig länk till fotografens in sida */
     images: [
-      "../img/boat01.jpg",
-      "../img/boat02.jpg", 
-      "../img/boat03.jpg",
+      "img/boat01.jpg",
+      "img/boat02.jpg", 
+      "img/boat03.jpg",
     ],
     sq_images: [
-      "../img/sq_boat01.jpg",
-      "../img/sq_boat02.jpg", 
-      "../img/sq_boat03.jpg",
+      "img/sq_boat01.jpg",
+      "img/sq_boat02.jpg", 
+      "img/sq_boat03.jpg",
     ]
   },
   {
@@ -29,14 +29,14 @@ var photoG = [
     fb: "http://www.facebook.com",  /* egentlig länk till fotografens fb sida */
     in: "http://www.instagram.com",  /* egentlig länk till fotografens in sida */
     images: [
-      "../img/nature01.jpg",
-      "../img/nature02.jpg", 
-      "../img/nature03.jpg",
+      "img/nature01.jpg",
+      "img/nature02.jpg", 
+      "img/nature03.jpg",
     ],
     sq_images: [
-      "../img/sq_nature01.jpg",
-      "../img/sq_nature02.jpg", 
-      "../img/sq_nature03.jpg",
+      "img/sq_nature01.jpg",
+      "img/sq_nature02.jpg", 
+      "img/sq_nature03.jpg",
     ]
   },
   {
@@ -46,14 +46,14 @@ var photoG = [
     fb: "http://www.facebook.com",  /* egentlig länk till fotografens fb sida */
     in: "http://www.instagram.com",  /* egentlig länk till fotografens in sida */
     images: [
-      "../img/abstract01.jpg",
-      "../img/abstract02.jpg", 
-      "../img/abstract03.jpg",
+      "img/abstract01.jpg",
+      "img/abstract02.jpg", 
+      "img/abstract03.jpg",
     ],
     sq_images: [
-      "../img/sq_abstract01.jpg",
-      "../img/sq_abstract02.jpg", 
-      "../img/sq_abstract03.jpg",
+      "img/sq_abstract01.jpg",
+      "img/sq_abstract02.jpg", 
+      "img/sq_abstract03.jpg",
     ]
   },
   {
@@ -63,14 +63,14 @@ var photoG = [
     fb: "http://www.facebook.com",  /* egentlig länk till fotografens fb sida */
     in: "http://www.instagram.com",  /* egentlig länk till fotografens in sida */
     images: [
-      "../img/car01.jpg",
-      "../img/car02.jpg", 
-      "../img/car04.jpg",
+      "img/car01.jpg",
+      "img/car02.jpg", 
+      "img/car04.jpg",
     ],
     sq_images: [
-      "../img/sq_car01.jpg",
-      "../img/sq_car02.jpg", 
-      "../img/sq_car04.jpg",
+      "img/sq_car01.jpg",
+      "img/sq_car02.jpg", 
+      "img/sq_car04.jpg",
     ]
   }
   
