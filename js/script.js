@@ -94,27 +94,6 @@ $(document).ready(function(){
          }
         });
 
-  
-  
-  
-  /*=============================================================================
-   add class for contackt menu
-  =============================================================================*/
-
-
-          if($(window).width() <= 1020){
-            $(".photo-content h2").addClass("cat-header");
-          }
-
-          //refresh page on browser resize
-          $(window).bind('resize', function(e)
-          {
-            if (window.RT) clearTimeout(window.RT);
-            window.RT = setTimeout(function()
-            {
-              this.location.reload(false); /* false to get page from cache */
-            }, 10);
-          });
         
   
 });  /* document redy end */

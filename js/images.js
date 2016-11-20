@@ -1,6 +1,5 @@
 /* En lista med alla bilder från fotograferna */
 
-//$(document).ready(function(){
   
   /*=============================================================================
   Kod för att få ut bilderna från objecten.
@@ -30,7 +29,6 @@
     }
   }
   
-  //console.log(imageList);
   
   /*=============================================================================
   KOD HITTAD PÅ NÄTET
@@ -51,18 +49,20 @@
     return input;
 }
   
-  imageList.shuffle();
-  
-  //console.log(imageList);
-  
   /*
   nu ligger alla bildlänkar i imagelist
   som blandade länkar.
   */
+
+  imageList.shuffle();
+  
+
   
 
   /*=============================================================================
   Prototype kod för att testa skall vara under denna linje
+  Under utveckling, skall bli att man ser vilken fotograf som har
+  tagit bilden.
   =============================================================================*/
 
     
@@ -115,47 +115,4 @@
   
   
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-//});
 
-/*
-$(".photographer-list").append("<li class='photographer-list-items'>" + 
-                                   "<img src='" + photoG[i].profileImg + "'>" +
-                                   "<div class='photograper-info-wrapper'>" +
-                                   "<div class='list-info'>" +
-                                   "<h3>Photograoher</h3>" +
-                                   "<p>" + photoG[i].name + "</p>" +
-                                   "<h3>Country</h3>" +
-                                   "<p>" + photoG[i].country + "</p>" +
-                                   "</div>" +
-                                   "<div class='social'>" +
-                                   "<img src='img/in.svg'>" +
-                                   "<img src='img/fb.svg'>" +
-                                   "</div>" +
-                                   "</div>" +
-                                   "</li>");
-                                   */

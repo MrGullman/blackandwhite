@@ -292,6 +292,10 @@ IMAGE LIST
   width: 100%;
 }
 
+.images-list-items:nth-child(1n+7) {
+  display: none; 
+}
+
 
 
 
@@ -486,6 +490,11 @@ MEDIA QUERYS
     flex-wrap: wrap;
     flex-basis: 50%;
   }
+  
+  .images-list-items:nth-child(1n+1) {
+    display: block; 
+  }
+
 
   .photographer-wrapper {
     display: flex;
@@ -506,6 +515,11 @@ MEDIA QUERYS
     text-transform: uppercase;
     align-self: center;
     text-align: center;
+  }
+  
+  .photo-content h2.cat-header {
+	background: none;
+    color: #e64056
   }
   
   
