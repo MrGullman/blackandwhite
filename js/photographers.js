@@ -15,6 +15,8 @@ var photoG = [
       "../img/boat01.jpg",
       "../img/boat02.jpg", 
       "../img/boat03.jpg",
+    ],
+    sq_images: [
       "../img/sq_boat01.jpg",
       "../img/sq_boat02.jpg", 
       "../img/sq_boat03.jpg",
@@ -30,6 +32,8 @@ var photoG = [
       "../img/nature01.jpg",
       "../img/nature02.jpg", 
       "../img/nature03.jpg",
+    ],
+    sq_images: [
       "../img/sq_nature01.jpg",
       "../img/sq_nature02.jpg", 
       "../img/sq_nature03.jpg",
@@ -45,6 +49,8 @@ var photoG = [
       "../img/abstract01.jpg",
       "../img/abstract02.jpg", 
       "../img/abstract03.jpg",
+    ],
+    sq_images: [
       "../img/sq_abstract01.jpg",
       "../img/sq_abstract02.jpg", 
       "../img/sq_abstract03.jpg",
@@ -60,6 +66,8 @@ var photoG = [
       "../img/car01.jpg",
       "../img/car02.jpg", 
       "../img/car04.jpg",
+    ],
+    sq_images: [
       "../img/sq_car01.jpg",
       "../img/sq_car02.jpg", 
       "../img/sq_car04.jpg",
@@ -67,5 +75,7 @@ var photoG = [
   }
   
 ]
+
+
 
 

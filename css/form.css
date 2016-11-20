@@ -1,0 +1,95 @@
+/***********************
+FORM STYLE
+***********************/
+
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+  font-size: 0.75em;
+  color: #e64056;
+  top: -2.25rem;
+  left: 0.6rem;
+ -webkit-transition: all 0.125s ease;
+ transition: all 0.125s ease;
+}
+
+.input-group {
+  width: 90%;
+  margin: 1rem 0 1rem;
+  position: relative;
+}
+
+.input-group label {
+  color: #999;
+  padding: 0.6rem;
+  position: absolute;
+  font-size: 1.5rem;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+.input-group.wide { width: 100%; }
+
+input,
+textarea {
+  padding-left: 0.5em;
+  border: 0;
+  width: 100%;
+  font-family: 'Dharma Slab E';
+  font-weight: 300;
+  font-style: normal;
+  display: block;
+  font-size: 2.2em;
+  background: #282828;
+  border:0;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  padding-bottom: 4px;
+  margin-bottom: 0.2em;
+  letter-spacing: 4px;
+}
+
+
+input:focus,
+textarea:focus { outline: 0; }
+
+input:focus ~ span,
+textarea:focus ~ span {
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease;
+}
+
+textarea {
+  width: 100%;
+  min-height: 2em;
+  font-size: 1.4em;
+  letter-spacing: 1px;;
+}
+  
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  background: #282828;
+  padding: 2em 0 1em;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.submit {
+  align-self: flex-end;
+  width: 40%;
+  height: 3em;
+  background: none;
+  border: 0;
+  border: 2px solid #999;
+  color: #fff;
+}
+
+.submit:hover {
+  background-color: #e64056;
+  border: 0;
+}

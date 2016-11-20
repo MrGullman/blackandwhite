@@ -31,17 +31,8 @@
               <li>
               <a href="#photographers">Photographers</a>
               </li>
-
-              <li >
-              <a href="#catering">Catering</a>
-              </li>
-
               <li>
-              <a href="#erbjudande">Erbjudande</a>
-              </li>
-
-              <li>
-              <a href="#kontakt">Kontakt</a>
+              <a href="#contact">Kontakt</a>
               </li>
             </ul>
         </nav>  <!-- /nav end -->
@@ -63,10 +54,10 @@
         <!-- MAIN SECTION  -->
           <!--  IMAGES  -->
         <div id="images"></div> <!-- placeholder for the nav -->
-        <h2 class="cat-header">Top Rated Pix</h2>
+        <h2 class="cat-header">Random Pix</h2>
         <section class="images-wrapper">
           <ul class="images-list">
-            <li class="images-list-items">
+            <!--<li class="images-list-items">
               <div class="photo">
                 <img src="img/boat01.jpg" alt="boat image"> 
                 <div class="overlay">
@@ -119,7 +110,7 @@
                   <p class="list-info">Sergei Kudrow</p>
                 </div>
               </div>
-            </li>
+            </li>-->
           </ul>
         </section>
 
@@ -131,21 +122,28 @@
             <ul class="photographer-list photo-content">
               <!-- Här kommer list items från javasript -->
             </ul>
-            <div class="photo-content contact">
+            <div id="contact"></div>  <!-- placeholder for the nav -->
+            <div class="photo-content">
               <h2>Kontakta Oss</h2>
               <form>
                 <div class="input-group">
+                  <input type="text" id="name" name="user-name" required>
                   <label for="name">Namn</label>
-                  <input type="text" id="name" name="user-name">
+                  <span></span>
                 </div>
                 <div class="input-group">
+                  <input type="email" id="email" name="user-email" required>
                   <label for="email">Email</label>
-                  <input type="email" id="email" name="user-email">
                 </div>
                 <div class="input-group">
+                  <input type="text" id="phone" name="user-phone" required>
                   <label for="phone">Mobilnr</label>
-                  <input type="text" id="phone" name="user-phone">
                 </div>
+                <div class="input-group">
+                  <textarea type="text" id="message" required></textarea>
+                  <label for="message">Meddelande</label>
+                </div>
+                <button type="submit" class="submit">Skicka</button>
               </form>
             </div>
             <!--<ul class="photographer-list">
@@ -187,8 +185,8 @@
     </div>  <!-- /site-wrapper end -->
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>   
-    <script src="js/images.js"></script>
     <script src="js/photographers.js"></script>
+    <script src="js/images.js"></script>
     <script src="js/script.js"></script>
   </body>
 
