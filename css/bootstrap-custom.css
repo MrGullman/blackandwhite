@@ -1,0 +1,46 @@
+/*==============================================
+BOOTSTRAP CUSTOM CSS
+==============================================*/
+
+.btn {
+  border-radius: 0px;
+}
+
+.modal-header {
+  background-color: #282828;
+  border-bottom: 3px solid #e64056;
+}
+
+.modal-header h4 {
+  color: #e64056;
+  font-family: 'Dharma Gothic E ExBold';
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2.5em;
+}
+
+.modal-body {
+  background-color: #282828;
+}
+
+.modal-body h5 {
+  color: #b3b3b3;
+}
+
+.modal-body p {
+  font-size: 1.5em;
+  letter-spacing: 1.2px;
+}
+
+.modal-body ul li {
+  color: #b3b3b3;
+}
+
+.modal-footer {
+  background-color: #282828;
+  border-top: 3px solid #e64056;
+}
+
+.close {
+  color: #fff;
+}

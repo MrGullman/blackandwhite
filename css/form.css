@@ -79,16 +79,6 @@ form {
   width: 85%;
 }
 
-.submit {
-  align-self: flex-end;
-  width: 40%;
-  height: 3em;
-  background: none;
-  border: 0;
-  border: 2px solid #999;
-  color: #fff;
-}
-
 .submit:hover {
   background-color: #e64056;
   border: 0;
