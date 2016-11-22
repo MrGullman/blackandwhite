@@ -6,6 +6,10 @@ BOOTSTRAP CUSTOM CSS
   border-radius: 0px;
 }
 
+.btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
+  outline: none;
+}
+
 .modal-header {
   background-color: #282828;
   border-bottom: 3px solid #e64056;

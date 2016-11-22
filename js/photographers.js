@@ -52,6 +52,30 @@ var photoG = [
       "img/car02.jpg", 
       "img/car04.jpg",
     ]
+  },
+  {
+    name: "Johan Karlsson",
+    country: "Sweden",
+    profileImg: "img/sq_people03.jpg",
+    fb: "http://www.facebook.com",  /* egentlig länk till fotografens fb sida */
+    in: "http://www.instagram.com",  /* egentlig länk till fotografens in sida */
+    images: [
+      "img/car01.jpg",
+      "img/car02.jpg", 
+      "img/car04.jpg",
+    ]
+  },
+  {
+    name: "Sergei Kudrow",
+    country: "Russia",
+    profileImg: "img/sq_people04.jpg",
+    fb: "http://www.facebook.com",  /* egentlig länk till fotografens fb sida */
+    in: "http://www.instagram.com",  /* egentlig länk till fotografens in sida */
+    images: [
+      "img/nature01.jpg",
+      "img/nature02.jpg", 
+      "img/nature03.jpg",
+    ]
   }
   
 ]
