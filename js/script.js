@@ -19,8 +19,12 @@ $(document).ready(function(){
                                    "<p>" + photoG[i].country + "</p>" +
                                    "</div>" +
                                    "<div class='social'>" +
+                                   "<a href='" + photoG[i].in + "'>" +
                                    "<img src='img/in.svg'>" +
+                                   "</a>" +
+                                   "<a href='" + photoG[i].fb + "'>" +
                                    "<img src='img/fb.svg'>" +
+                                   "</a>" +
                                    "</div>" +
                                    "</div>" +
                                    "</li>");
@@ -63,7 +67,7 @@ $(document).ready(function(){
 
     var navVisible = false;
     
-       $( "#burger-button" ).click(function() {
+       $( "#burger-button" ).on('click', function() {
          
          // ändrar så inte redirekigas när man trycker på länken till
          // burger knappen.

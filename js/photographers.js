@@ -54,27 +54,27 @@ var photoG = [
     ]
   },
   {
-    name: "Johan Karlsson",
-    country: "Sweden",
-    profileImg: "img/sq_people03.jpg",
+    name: "Claudius DelaRoug",
+    country: "France",
+    profileImg: "img/sq_people07.jpg",
     fb: "http://www.facebook.com",  /* egentlig länk till fotografens fb sida */
     in: "http://www.instagram.com",  /* egentlig länk till fotografens in sida */
     images: [
-      "img/car01.jpg",
-      "img/car02.jpg", 
-      "img/car04.jpg",
+      "img/water01.jpg",
+      "img/water02.jpg", 
+      "img/water03.jpg",
     ]
   },
   {
-    name: "Sergei Kudrow",
-    country: "Russia",
-    profileImg: "img/sq_people04.jpg",
+    name: "Camile Walker",
+    country: "Canada",
+    profileImg: "img/sq_people06.jpg",
     fb: "http://www.facebook.com",  /* egentlig länk till fotografens fb sida */
     in: "http://www.instagram.com",  /* egentlig länk till fotografens in sida */
     images: [
-      "img/nature01.jpg",
-      "img/nature02.jpg", 
-      "img/nature03.jpg",
+      "img/city01.jpg",
+      "img/city02.jpg", 
+      "img/city03.jpg",
     ]
   }
   
