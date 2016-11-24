@@ -21,6 +21,11 @@ JS DOM manipulation, Bootstrap användning.
 6. sidan byggdes först med statiska bilder och fotografer
 7. Programerade all funktionalitet på sidan, som sidomenyn samt länkade in alla fotografer och bilder med hjälp av JS och jQuery.
 
+###### Framtidsplaner för sidan
+* Registrerings funktion med databas kopling.
+* Personlig sida för fotograferna, med info m dem själv, och visa upp deras bilder.
+* shop med möjlighet att köpa fotografers bilder.
+
 ***
 
 ###### Länkar till mina sidor
