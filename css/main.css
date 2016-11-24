@@ -15,7 +15,7 @@ Skapad av Jesper Gullman
 
 
 /********************
-EMBEDDED FONTS
+EMBEDDED CSS FILES
 ********************/
 
 
@@ -158,15 +158,6 @@ p {
   color: #fff;
 }
 
-
-/* Form Style */
-
-  
-  
-
-  /* Form style end */
-
-
 .photo-content {
   background-color: #282828;
 }
@@ -215,7 +206,6 @@ header {
   font-size: 1.7em;
   padding-left: 1em;
 }
-
 
 .main-logo img {
   height: 3em;
@@ -538,7 +528,6 @@ MEDIA QUERYS
     color: #e64056
   }
   
-  
   form {
     width: 70%;
   }
@@ -547,7 +536,7 @@ MEDIA QUERYS
   
   /* Form Style */
   
-  input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+ /* input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
   font-size: 0.75em;
   color: #e64056;
   top: -2.25rem;
@@ -613,7 +602,7 @@ textarea {
   font-size: 1.4em;
   letter-spacing: 1px;;
 }
-  
+  */
   /* Form style end */
   
   } 

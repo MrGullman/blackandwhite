@@ -1,6 +1,6 @@
-/***********************
+/*==============================================
 FORM STYLE
-***********************/
+==============================================*/
 
 input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
   font-size: 0.75em;
