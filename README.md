@@ -1,6 +1,6 @@
 # About: School project - Web design
 
-### School: Lernia YH JS Frontend Developer Distans Stockholm
+### School: Lernia YH JS Frontend Developer ######Distans Stockholm
 #### Course: HTML, CSS, JS and Web Standards
 ***
 ###### Tillvägagångssätt
