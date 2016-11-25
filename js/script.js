@@ -10,23 +10,23 @@ $(document).ready(function(){
   
   for(var i = 0; i < photoG.length; i++){
     $(".photographer-list").append("<li class='photographer-list-items'>" + 
-                                   "<img src='" + photoG[i].profileImg + "'>" +
+                                   		"<img src='" + photoG[i].profileImg + "'>" +
                                    "<div class='photograper-info-wrapper'>" +
-                                   "<div class='list-info'>" +
-                                   "<h3>Photograoher</h3>" +
-                                   "<p>" + photoG[i].name + "</p>" +
-                                   "<h3>Country</h3>" +
-                                   "<p>" + photoG[i].country + "</p>" +
-                                   "</div>" +
-                                   "<div class='social'>" +
-                                   "<a href='" + photoG[i].in + "'>" +
-                                   "<img src='img/in.svg'>" +
-                                   "</a>" +
-                                   "<a href='" + photoG[i].fb + "'>" +
-                                   "<img src='img/fb.svg'>" +
-                                   "</a>" +
-                                   "</div>" +
-                                   "</div>" +
+									   "<div class='list-info'>" +
+										   "<h3>Photograoher</h3>" +
+										   "<p>" + photoG[i].name + "</p>" +
+										   "<h3>Country</h3>" +
+										   "<p>" + photoG[i].country + "</p>" +
+									   "</div>" +
+									   "<div class='social'>" +
+										   "<a href='" + photoG[i].in + "'>" +
+										   "<img src='img/in.svg'>" +
+										   "</a>" +
+										   "<a href='" + photoG[i].fb + "'>" +
+										   "<img src='img/fb.svg'>" +
+										   "</a>" +
+									   "</div>" +
+									 "</div>" +
                                    "</li>");
   };
   
