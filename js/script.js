@@ -38,21 +38,9 @@ $(document).ready(function(){
   
   
   
-  for(var i = 0; i < imgNew.length; i++){
+  for(var i = 0; i < imageList.length; i++){
     $(".images-list").append("<li class='images-list-items'>" + 
-                                   "<img src='" + imgNew[i] + "'>" +
-                                   /*"<div class='photograper-info-wrapper'>" +
-                                   "<div class='list-info'>" +
-                                   "<h3>Photograoher</h3>" +
-                                   "<p>" + photoG[i].name + "</p>" +
-                                   "<h3>Country</h3>" +
-                                   "<p>" + photoG[i].country + "</p>" +
-                                   "</div>" +
-                                   "<div class='social'>" +
-                                   "<img src='img/in.svg'>" +
-                                   "<img src='img/fb.svg'>" +
-                                   "</div>" +
-                                   "</div>" +*/
+                                   "<img src='" + imageList[i] + "'>" +
                                    "</li>");
   };
   
@@ -98,7 +86,12 @@ $(document).ready(function(){
          }
         });
 
-        
+  /*=============================================================================
+    Adds the text to the headerImage
+  =============================================================================*/
+  
+    document.getElementById("welcomeText").innerHTML = "Välkommen till Black &amp; White PIX " + "<br>" +
+            "Sidan för personer som gillar att ta bilder i svart och vitt. här kommer du ha möjlighet att visa upp dina bilder. Fler uppdateringar till sidan kommer löpande.";
   
 });  /* document redy end */
 

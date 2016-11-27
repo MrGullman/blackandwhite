@@ -5,7 +5,7 @@
 ***
 ###### Tillvägagångssätt
 Jag utvecklade sidan Enligt mobilefirst, Sidan är en SPA( Singel Page Aplication )
-Sidan är gjord för att visa kunskaper i följande, Responsiv, HTML5, CSS, jquery DOM manipulation,
+Sidan är gjord för att visa kunskaper i följande, HTML5, CSS, Responsiv, jquery DOM manipulation,
 JS DOM manipulation, Bootstrap användning.
 
 ###### Lite om sidan
